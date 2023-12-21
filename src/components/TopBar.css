@@ -1,0 +1,32 @@
+.tile {
+  color: rgb(19, 69, 128);
+  font-size: 150%;
+  margin: 4%;
+  text-decoration: none;
+}
+.tile:hover {
+  text-decoration: none;
+  color: rgb(231, 97, 151);
+  border-bottom: 3px solid rgb(231, 97, 151);
+}
+.logo {
+  transition: transform 0.5s;
+}
+.logo:hover {
+  transform: scale(1.3);
+}
+@media screen and (max-width: 877px) {
+  .logo{
+    transition: none;
+    padding: 3% 0;
+  }
+  .logo:hover {
+    transform: none;
+  }
+  .tile {
+    color: rgb(19, 69, 128);
+    font-size: 100%;
+    margin: 4%;
+    text-decoration: none;
+  }
+}

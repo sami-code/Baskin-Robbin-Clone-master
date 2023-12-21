@@ -1,0 +1,41 @@
+.base-container {
+  background-color: #d8c4b798;
+  width: 100x;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.content {
+  width: 50%;
+  background-color: rgb(252, 230, 233);
+  //display: flex;
+  //flex-direction: column;
+}
+.image {
+  width: 30%;
+  text-align: center;
+
+  img {
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+}
+.form {
+  margin-top: 2cm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .textField {
+    width: 120%;
+  }
+}
+@media screen and (max-width: 400%) {
+  .form.textField {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}

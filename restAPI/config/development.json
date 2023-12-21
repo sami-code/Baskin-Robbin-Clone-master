@@ -1,0 +1,4 @@
+{
+  "db": "mongodb://localhost/ProductsCrud",
+  "JwtPrivateKey": "Rainbow6Siege"
+}

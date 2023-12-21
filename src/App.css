@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Sacramento&display=swap");
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+.maincon {
+  font-family: "Raleway", "sans-serif";
+  padding: 2%;
+
+  padding-bottom: 3%;
+}
+.first-img {
+  background-image: url(https://www.baskinrobbins.com/content/dam/br/img/masthead/2020_W2/homepagemastheaddesktop-doordash-1440x600.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+}
+.row {
+  margin: 0%;
+}
+.menu {
+  text-align: center;
+}
+.tile a {
+  color: rgb(19, 69, 128);
+  font-size: 25px;
+  margin: 4%;
+}
+.tile:hover {
+  text-decoration: none;
+  color: rgb(231, 97, 151);
+  border-bottom: 3px solid rgb(231, 97, 151);
+}
+.first-card {
+  padding: 0%;
+  margin: 4% 0 4% 5%;
+  background-color: #d8c4b798;
+  width: "400px";
+}
+.card-title {
+  font-family: "Sacramento", cursive;
+  font-size: 300%;
+}
+.second-card {
+  padding: 0%;
+  margin-top: 7%;
+
+  background-color: #d8c4b798;
+}
+.eventimg {
+  background-color: rgb(19, 69, 128);
+}
+.eventimg:hover {
+  background-color: rgb(231, 97, 151);
+}
+.card-text {
+  font-size: 110%;
+}
+.img {
+  transition: transform 0.3s;
+}
+.img:hover {
+  transform: scale(1.3);
+}
+.rightcards {
+  margin: 7% 0 4% 5%;
+}
+.card-body .border-botto {
+  font-weight: bolder;
+  font-size: 120%;
+  color: rgb(19, 69, 128);
+  padding-left: 0%;
+}
+.card-body .border-botto:hover {
+  text-decoration: none;
+  color: rgb(231, 97, 151);
+}
+
+.MuiCardContent-root {
+  height: 9em;
+}
+.footer a {
+  color: rgb(19, 69, 128);
+}
+.footer a:hover {
+  color: rgb(231, 97, 151);
+  text-decoration: none;
+}
+.icons a {
+  margin: 0% 1.25%;
+}
+footer {
+  padding-bottom: 2%;
+}
+.CartBadge .MuiIconButton-root {
+  position: absolute;
+  right: 0;
+  top: -40%;
+  margin-right: 5%;
+}
+.IcePaper {
+  margin: 5%;
+  padding: 2%;
+}
+.CartCard {
+  display: flex;
+}
+.MuiCardActionArea-root {
+  display: flex;
+}
+.CardRoot {
+  background-color: #d8c4b798;
+  width: 550;
+  text-align: center;
+  display: flex;
+}
+@media screen and (max-width: 877px) {
+  .maincon {
+    padding: 0%;
+  }
+  .div1 {
+    position: absolute;
+    top: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .div2 {
+    margin: 0%;
+  }
+  .tile {
+    font-size: 15px;
+  }
+  .tile:hover {
+    border-bottom: 1.5px solid rgb(231, 97, 151);
+  }
+  .first-card {
+    margin: 0% 0%;
+    width: 100%;
+  }
+  .rightcards {
+    margin: 0;
+    padding: 0%;
+  }
+  .second-card {
+    margin-top: 1%;
+  }
+  .horcards {
+    padding: 0%;
+    margin: 0%;
+  }
+  .horcards .card {
+    padding: 0%;
+    margin: 0;
+  }
+  .horcardsup {
+    padding-top: 3%;
+    margin: 0%;
+  }
+  .horcardsup h1 {
+    font-size: 280%;
+  }
+  .icons a {
+    margin: 0% 4%;
+  }
+  .CartBadge .MuiIconButton-root {
+    position: absolute;
+    right: 0;
+    top: -280%;
+  }
+  .IcePaper {
+    margin: 1%;
+    padding-bottom: 10%;
+  }
+}
